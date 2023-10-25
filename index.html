@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1 id="tipC">Tip Calculator</h1>
+        <p>Enter the bill amount and tip percentage to calculate the total</p>
+        <div id="display">
+            <h3>Bill amount:</h3>
+            <input type="text" id="bill">
+        </div>
+        <div id="display">
+            <h3>Tip percentage:</h3>
+            <input type="text" id="tip">
+        </div>
+        <button id="calculate">Calculate</button>
+        <h3>Total: <span id="total"></span></h3>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
